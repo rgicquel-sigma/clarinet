@@ -10,7 +10,7 @@
   clarinet.CParser           = CParser;
   clarinet.CStream           = CStream;
   clarinet.createStream      = createStream;
-  clarinet.MAX_BUFFER_LENGTH = 64 * 1024;
+  clarinet.MAX_BUFFER_LENGTH = 250 * 1024 * 1024;
   clarinet.DEBUG             = (env.CDEBUG==='debug');
   clarinet.INFO              = (env.CDEBUG==='debug' || env.CDEBUG==='info');
   clarinet.EVENTS            =
